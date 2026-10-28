@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.vertility.cq1-stacks</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/YOU/miniforge3/envs/cellpose/bin/python</string>
+    <string>/Users/YOU/bin/cq1_stacks.py</string>
+    <string>--scan</string><string>/Users/YOU/Data</string>
+    <string>--since</string><string>2026-01-01T00:00</string>
+  </array>
+  <key>StartInterval</key><integer>300</integer>
+  <key>RunAtLoad</key><true/>
+  <key>StandardOutPath</key><string>/Users/YOU/Library/Logs/cq1-stacks.log</string>
+  <key>StandardErrorPath</key><string>/Users/YOU/Library/Logs/cq1-stacks.log</string>
+</dict>
+</plist>
